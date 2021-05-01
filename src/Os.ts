@@ -6,7 +6,7 @@ export class Os {
      * 用户操作系统
      */
     static getPlatform(){
-        return window.navigator.platform
+        return window?.navigator?.platform
     }
 
     /**
