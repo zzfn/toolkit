@@ -1,6 +1,6 @@
 {
-  "name": "toolkit",
-  "version": "1.0.1",
+  "name": "@zzf/toolkit",
+  "version": "1.0.0",
   "description": "个人工具类",
   "main": "lib/toolkit-min.js",
   "typings": "lib/index.d.ts",
@@ -8,8 +8,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "rollup -c&&tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c&&tsc"
   },
   "repository": {
     "type": "git",
