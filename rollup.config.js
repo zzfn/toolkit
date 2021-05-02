@@ -8,7 +8,7 @@ export default {
     output: [
         {
             format: "umd",
-            file: "lib/index-min.js",
+            file: "lib/toolkit-min.js",
             name: "toolkit",
             sourcemap: false
         },
