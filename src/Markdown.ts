@@ -9,7 +9,6 @@ export class Markdown {
     static getTitle(source: string) {
         return source.replace(/^[^#]+\n/g, '')
             .replace(/(?:[^\n#]+)#+\s([^#\n]+)\n*/g, '')
-            .replace(/^#\s[^#\n]*\n+/, '')
             .replace(/`{3}}[^`\n]*\n+[^`{3}]+```\n+/g, '')
             .replace(/`([^`\n]+)`/g, '$1')
             .replace(/\*\*?([^*\n]+)\*\*?/g, '$1')

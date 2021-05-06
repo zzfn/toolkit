@@ -7,7 +7,15 @@ export default {
     ],
     output: [
         {
-            format: "umd",
+            file: `lib/toolkit.cjs.js`,
+            format: 'cjs',
+        },
+        {
+            file: `lib/toolkit.es.js`,
+            format: 'es',
+        },
+        {
+            format: "iife",
             file: "lib/toolkit-min.js",
             name: "toolkit",
             sourcemap: false

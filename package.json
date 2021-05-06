@@ -2,7 +2,8 @@
   "name": "@zzf/toolkit",
   "version": "1.0.0",
   "description": "个人工具类",
-  "main": "lib/toolkit-min.js",
+  "main": "lib/toolkit.cjs.js",
+  "module": "lib/toolkit.es.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib/**/*"
