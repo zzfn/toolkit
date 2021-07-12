@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="../lib/toolkit-min.js"></script>
+<body>
+<script>
+    const md='# 几种模块化的解决方案\n## commonjs\n\n## amd\n\n\n## cmd\n\n\n## es6\n\n# 几种构建格式\n\n## CJS\n\n1. node模块化的主要解决方案\n2. `require`同步加载\n\n## AMD\n\n1. 依赖`requireJS`的异步加载解决方案\n\n## CMD\n\n1. 依赖`SeaJS`的异步加载解决方案\n\n\n## UMD\n\n兼容浏览器和node\n\n## EJS、ESM\n\n即是ES6 模块，类库打包以供摇树\n\n## iife\nrollup立即执行函数格式，给浏览器使用\n\n# F&Q\n\n## AMD和CMD的差异\n\n> 对模块加载的处理不同\n\n## ES6 模块与 CommonJS 模块的差异\n\n1. CommonJS 模块输出的是一个值的拷贝，ES6 模块输出的是值的引用。\n2. CommonJS 模块是运行时加载，ES6 模块是编译时输出接口。\n3. CommonJS 模块的require()是同步加载模块，ES6 模块的import命令是异步加载，有一个独立的模块依赖的解析阶段。\n\n\n## 其他\n\n1. import加载commonjs模块只能整体加载不能按需摇树'
+    console.log(toolkit.Markdown.getTitle(md))
+</script>
+</body>
+</html>
