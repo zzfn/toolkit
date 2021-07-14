@@ -9,6 +9,7 @@
     "lib/**/*"
   ],
   "scripts": {
+    "postversion": "git push --follow-tags",
     "build": "rollup -c&&tsc",
     "test": "jest"
   },
