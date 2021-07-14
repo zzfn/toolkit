@@ -1,6 +1,6 @@
 class EventEmitter {
     private readonly listeners: Record<string, any>
-    private maxListener: number
+    private readonly maxListener: number
 
     constructor(maxListener = 10) {
         this.listeners = {}
